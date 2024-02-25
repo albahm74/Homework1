@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
+    height: 1024px;
+    width: 1440px;
+    background-image: url(img/skypro2077.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top_title {
+    width: 789px;
+    height: 125px;
+    padding-top: 217px;
+    padding-left: 120px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.top_title:hover {
+    text-decoration: underline;
+}
+
+.top_text {
+    width: 481px;
+    height: 64px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    padding-left: 120px;
+    padding-top: 32px;
+}
+
+.top_text:hover {
+    text-decoration: underline;
+}
+
+.top_button {
+    margin-left: 120px;
+    margin-top: 44px;
+    width: 234px;
+    height: 49px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #9c0332;        
+}
+
+.top_button:hover {
+    text-decoration: underline;
+}
+
+.product {
+    width: 1440px;
+    height: 556px;
+    background-image: url(img/black.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product_content {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 128px;
+}
