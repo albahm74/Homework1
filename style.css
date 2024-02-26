@@ -14,11 +14,14 @@ body {
 
 .top {
   height: 1024px;
-  width: 1440px;
   background-image: url(img/skypro2077.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.top:hover {
+  box-shadow: 0 0 8px #6ebcf0;
 }
 
 .top_title {
@@ -67,7 +70,6 @@ body {
 }
 
 .product {
-  width: 1440px;
   height: 556px;
   background-image: url(img/black.jpg);
   background-repeat: no-repeat;
@@ -75,9 +77,58 @@ body {
   background-size: cover;
 }
 
+.product:hover {
+  box-shadow: 0 0 8px #6ebcf0;
+}
+
 .product_content {
   display: flex;
   justify-content: center;
   gap: 32px;
   padding-top: 128px;
+}
+
+.product_content_1 {
+  width: 379px;
+  height: 300px;
+  background-image: url(img/game1.png);
+}
+
+.product_content_1:hover {
+  box-shadow: 0 0 8px #6ebcf0;
+  transform: scale(1.01);
+}
+
+.product_content_2 {
+  width: 379px;
+  height: 300px;
+  background-image: url(img/game2.png);
+}
+
+.product_content_2:hover {
+  box-shadow: 0 0 8px #6ebcf0;
+  transform: scale(1.01);
+}
+
+.product_content_3 {
+  width: 379px;
+  height: 300px;
+  background-image: url(img/game3.png);
+}
+
+.product_content_3:hover {
+  box-shadow: 0 0 8px #6ebcf0;
+  transform: scale(1.01);
+}
+
+.product_content_text {
+  padding-left: 32px;
+  padding-top: 236px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 32px;
+  width: 84px;
+  height: 32px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
