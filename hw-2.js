@@ -4,7 +4,9 @@
 // a = 20;
 // alert(a);
 
-
+//__task_2__
+// const releaseYearFirstIphone = 2007;
+// alert(`Год выпуска первого Iphone: ${releaseYearFirstIphone}`);
 
 
 
