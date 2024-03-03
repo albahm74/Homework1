@@ -8,7 +8,9 @@
 // const releaseYearFirstIphone = 2007;
 // alert(`Год выпуска первого Iphone: ${releaseYearFirstIphone}`);
 
-
+//__task_3__
+// const nameCreatorJavaScript = "Брендан Эйх";
+// alert(`Имя Создателя JavaScript: ${nameCreatorJavaScript}`);
 
 
 
