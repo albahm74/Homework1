@@ -60,3 +60,7 @@
 //__task_9.4__
 // let info = prompt("Какую информацию хотите узнать о пользователе?");
 // alert(user[info]);
+
+//__task_10__
+// let userName = prompt(`Введите ваше имя: `);
+// alert(`Привет, ${userName}`);
