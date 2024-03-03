@@ -48,4 +48,5 @@
 //     isAdmin: true
 // };
 
-
+//__task_9.1__
+// user['city of residence'] = "Mannheim";
