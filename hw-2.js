@@ -26,3 +26,13 @@
 // let a = 9;
 // let b = 2;
 // alert(`Остаток от деления: ${a % b}`);
+
+//__task_7__
+// let num = 1;
+// num += 5;
+// num -= 3;
+// num *= 7;
+// num /= 3;
+// num++;
+// num--;
+// alert(num);
