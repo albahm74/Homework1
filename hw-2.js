@@ -12,7 +12,10 @@
 // const nameCreatorJavaScript = "Брендан Эйх";
 // alert(`Имя Создателя JavaScript: ${nameCreatorJavaScript}`);
 
-
+//__task_4__
+// let a = 10;
+// let b = 2;
+// alert(Числа: ${a}; ${b}.\nСумма: ${a + b}\nРазность: ${a - b}\nПроизведение: ${a * b}\nЧастное: ${a / b}\n `);
 
 
 
