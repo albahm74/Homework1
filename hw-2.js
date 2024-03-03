@@ -40,3 +40,12 @@
 //__task_8__
 // let age = number(prompt("Сколько вам лет?"));
 // alert(age);
+
+//__task_9__
+// let user = {
+//     name: 'Frank',
+//     age: 45,
+//     isAdmin: true
+// };
+
+
