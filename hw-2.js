@@ -53,3 +53,6 @@
 
 //__task_9.2__
 // user.age = 50;
+
+//__task_9.3__
+// delete user['city of residence'];
