@@ -56,3 +56,7 @@
 
 //__task_9.3__
 // delete user['city of residence'];
+
+//__task_9.4__
+// let info = prompt("Какую информацию хотите узнать о пользователе?");
+// alert(user[info]);
