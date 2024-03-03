@@ -50,3 +50,6 @@
 
 //__task_9.1__
 // user['city of residence'] = "Mannheim";
+
+//__task_9.2__
+// user.age = 50;
