@@ -20,10 +20,6 @@ body {
   background-size: cover;
 }
 
-.top:hover {
-  box-shadow: 0 0 8px #6ebcf0;
-}
-
 .top_title {
   width: 789px;
   height: 125px;
@@ -75,10 +71,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.product:hover {
-  box-shadow: 0 0 8px #6ebcf0;
 }
 
 .product_content {
