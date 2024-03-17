@@ -1,0 +1,9 @@
+@media (max-width: 1200px) {
+    .product {    
+        height: 1221px;
+        &_content {
+            flex-direction: column;        
+            align-items: center;
+        }
+    }
+}
