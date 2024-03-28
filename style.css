@@ -19,35 +19,30 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .top_title {
   width: 789px;
   height: 125px;
   padding-top: 217px;
-  padding-left: 120px;
+  margin-left: 120px;
   font-size: 64px;
   font-weight: 700;
   color: #ffffff;
 }
-
 .top_title:hover {
   text-decoration: underline;
 }
-
 .top_text {
   width: 481px;
   height: 64px;
   font-size: 18px;
   line-height: 32px;
   color: #ffffff;
-  padding-left: 120px;
+  margin-left: 120px;
   padding-top: 32px;
 }
-
 .top_text:hover {
   text-decoration: underline;
 }
-
 .top_button {
   margin-left: 120px;
   margin-top: 44px;
@@ -60,7 +55,6 @@ body {
   color: #ffffff;
   background-color: #9c0332;
 }
-
 .top_button:hover {
   text-decoration: underline;
 }
@@ -72,47 +66,39 @@ body {
   background-position: center;
   background-size: cover;
 }
-
 .product_content {
   display: flex;
   justify-content: center;
   gap: 32px;
   padding-top: 128px;
 }
-
 .product_content_1 {
   width: 379px;
   height: 300px;
   background-image: url(img/game1.png);
 }
-
 .product_content_1:hover {
   box-shadow: 0 0 8px #6ebcf0;
   transform: scale(1.01);
 }
-
 .product_content_2 {
   width: 379px;
   height: 300px;
   background-image: url(img/game2.png);
 }
-
 .product_content_2:hover {
   box-shadow: 0 0 8px #6ebcf0;
   transform: scale(1.01);
 }
-
 .product_content_3 {
   width: 379px;
   height: 300px;
   background-image: url(img/game3.png);
 }
-
 .product_content_3:hover {
   box-shadow: 0 0 8px #6ebcf0;
   transform: scale(1.01);
 }
-
 .product_content_text {
   padding-left: 32px;
   padding-top: 236px;
@@ -123,4 +109,93 @@ body {
   width: 84px;
   height: 32px;
   text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .product {
+    height: 1221px;
+  }
+  .product_content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+  }
+  .top_header {
+    display: flex;
+    flex-direction: column;
+  }
+  .top_title {
+    width: 343px;
+    height: 77px;
+    padding-top: 239px;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: auto;
+  }
+  .top_text {
+    width: 343px;
+    height: 66px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: auto;
+  }
+  .top_button {
+    margin-top: 33px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product {
+    height: 1221px;
+  }
+  .product_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product_content_1 {
+    width: 343px;
+    height: 300px;
+    background-image: url(img/game1.png);
+  }
+  .product_content_1:hover {
+    box-shadow: 0 0 8px #6ebcf0;
+    transform: scale(1.01);
+  }
+  .product_content_2 {
+    width: 343px;
+    height: 300px;
+    background-image: url(img/game2.png);
+  }
+  .product_content_2:hover {
+    box-shadow: 0 0 8px #6ebcf0;
+    transform: scale(1.01);
+  }
+  .product_content_3 {
+    width: 343px;
+    height: 300px;
+    background-image: url(img/game3.png);
+  }
+  .product_content_3:hover {
+    box-shadow: 0 0 8px #6ebcf0;
+    transform: scale(1.01);
+  }
+  .product_content_text {
+    padding-left: 32px;
+    padding-top: 236px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 32px;
+    width: 84px;
+    height: 32px;
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=style.css.map */
