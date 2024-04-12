@@ -87,4 +87,37 @@
           text-decoration: none;
           }
     }
+
+    .game {
+        &_1_left {
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+          }
+
+        &_1_left_title {
+          width: 249px;
+          height: 39px;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 39px;
+          color: #ffffff;
+          }
+      
+         &_1_left_text {
+          margin-left: 25px;
+          width: 343px;
+          height: 66px;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 22px;
+          color: #ffffff;          
+          }
+          
+          &_1_right_image {
+            padding-top: 64px;
+            width: 344px;
+            height: 236px;        
+          }  
+    }
 }

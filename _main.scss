@@ -122,3 +122,66 @@ body {
         text-decoration: none;
     }        
 }
+.game {
+        height: 800px;
+        background-image: url(img/black-game.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    &_content {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 135px;
+    }
+    
+    &_1_left {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+
+    &_1_left_title {
+        width: 377px;
+        height: 59px;
+        font-weight: 700;
+        font-size: 48px;
+        color: #ffffff;
+    }
+    
+    &_1_left_text {
+        width: 584px;
+        height: 64px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #ffffff;
+    }
+
+    &_1_left_button {
+        width: 234px;
+        height: 49px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+        border-radius: 30px;
+        color: #ffffff;
+        background-color: #9c0332;
+    }
+
+    &_1_left_button:hover {
+        text-decoration: underline;
+    }
+
+    &_1_left {
+        padding-top: 282px;
+    }
+
+    &_1_right_image {
+        padding-top: 234px;
+        width: 485px;
+        height: 333px;        
+    }
+}
