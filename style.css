@@ -111,11 +111,74 @@ body {
   text-decoration: none;
 }
 
+.game {
+  height: 800px;
+  background-image: url(img/black-game.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.game_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 135px;
+}
+.game_1_left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+.game_1_left_title {
+  width: 377px;
+  height: 59px;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
+.game_1_left_text {
+  width: 584px;
+  height: 64px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.game_1_left_button {
+  width: 234px;
+  height: 49px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #9c0332;
+}
+.game_1_left_button:hover {
+  text-decoration: underline;
+}
+.game_1_left {
+  padding-top: 282px;
+}
+.game_1_right_image {
+  padding-top: 234px;
+  width: 485px;
+  height: 333px;
+}
+
 @media (max-width: 1200px) {
   .product {
     height: 1221px;
   }
   .product_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .game {
+    height: 1221px;
+  }
+  .game_content {
     flex-direction: column;
     align-items: center;
   }
@@ -197,5 +260,32 @@ body {
     width: 84px;
     height: 32px;
     text-decoration: none;
+  }
+  .game_1_left {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .game_1_left_title {
+    width: 249px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+  }
+  .game_1_left_text {
+    margin-left: 25px;
+    width: 343px;
+    height: 66px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .game_1_right_image {
+    padding-top: 64px;
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */

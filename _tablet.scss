@@ -6,4 +6,12 @@
             align-items: center;
         }
     }
+
+    .game {
+        height: 1221px;
+        &_content {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 }
