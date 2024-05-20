@@ -12,4 +12,4 @@ function whatSeason() {
         return `Недопустимое значение`
     }
 } 
-console.log(whatSeason());
+//console.log(whatSeason());

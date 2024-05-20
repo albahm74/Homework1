@@ -167,6 +167,60 @@ body {
   height: 333px;
 }
 
+.game2 {
+  height: 800px;
+  background-image: url(img/black-game.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.game2_content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 135px;
+}
+.game2_right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.game2_right_title {
+  width: 396px;
+  height: 59px;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
+.game2_right_text {
+  width: 588px;
+  height: 64px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+}
+.game2_right_button {
+  width: 234px;
+  height: 49px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #9c0332;
+}
+.game2_right_button:hover {
+  text-decoration: underline;
+}
+.game2_left {
+  padding-top: 39px;
+}
+.game2_left_image {
+  width: 481px;
+  height: 322px;
+}
+
 @media (max-width: 1200px) {
   .product {
     height: 1221px;
@@ -175,11 +229,33 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .product_content_1 {
+    width: 379px;
+    height: 300px;
+  }
+  .product_content_2 {
+    width: 379px;
+    height: 300px;
+  }
+  .product_content_3 {
+    width: 379px;
+    height: 300px;
+  }
   .game {
     height: 1221px;
   }
   .game_content {
     flex-direction: column;
+    align-items: center;
+  }
+  .game2 {
+    height: 1221px;
+  }
+  .game2_content {
+    padding-top: 51px;
+    flex-direction: column-reverse;
+  }
+  .game2_right {
     align-items: center;
   }
 }
@@ -224,8 +300,6 @@ body {
     align-items: center;
   }
   .product_content_1 {
-    width: 343px;
-    height: 300px;
     background-image: url(img/game1.png);
   }
   .product_content_1:hover {
@@ -233,8 +307,6 @@ body {
     transform: scale(1.01);
   }
   .product_content_2 {
-    width: 343px;
-    height: 300px;
     background-image: url(img/game2.png);
   }
   .product_content_2:hover {
@@ -242,8 +314,6 @@ body {
     transform: scale(1.01);
   }
   .product_content_3 {
-    width: 343px;
-    height: 300px;
     background-image: url(img/game3.png);
   }
   .product_content_3:hover {
@@ -287,5 +357,19 @@ body {
     padding-top: 64px;
     width: 344px;
     height: 236px;
+  }
+  .game2_left_image {
+    width: 344px;
+    height: 231px;
+  }
+  .game2_right_title {
+    width: 264px;
+    height: 39px;
+    font-size: 32px;
+  }
+  .game2_right_text {
+    width: 343px;
+    height: 66px;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
