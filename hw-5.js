@@ -97,4 +97,4 @@ function whatSeason() {
         return `Недопустимое значение`
     }
 } 
-console.log(whatSeason());
+alert(whatSeason());

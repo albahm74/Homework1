@@ -185,3 +185,65 @@ body {
         height: 333px;        
     }
 }
+
+.game2 {
+    height: 800px;
+    background-image: url(img/black-game.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &_content {
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       gap: 135px;
+    }
+
+    &_right {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;        
+    }
+
+    &_right_title {
+        width: 396px;
+        height: 59px;
+        font-weight: 700;
+        font-size: 48px;
+        color: #ffffff;
+    }
+    
+    &_right_text {
+        width: 588px;
+        height: 64px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #ffffff;
+    }
+
+    &_right_button {
+        width: 234px;
+        height: 49px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+        border-radius: 30px;
+        color: #ffffff;
+        background-color: #9c0332;
+    }
+
+    &_right_button:hover {
+        text-decoration: underline;
+    }
+
+    &_left {
+        padding-top: 39px;
+    }
+
+    &_left_image {        
+        width: 481px;
+        height: 322px;        
+    }
+}
